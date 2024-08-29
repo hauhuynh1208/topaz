@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@topaz/Constants": ["Constants/src/index.ts"],
+      "@topaz/Constants/server": ["Constants/src/server.ts"],
+      "@topaz/Hooks": ["Hooks/src/index.ts"],
+      "@topaz/Hooks/server": ["Hooks/src/server.ts"],
+      // "@topaz/UI": ["UI/src/index.ts"],
+      "@UI/*": ["UI/src/lib/*"],
+      "@topaz/UI/server": ["UI/src/server.ts"],
+      "@topaz/Utils": ["Utils/src/index.ts"],
+      "@topaz/Utils/server": ["Utils/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
