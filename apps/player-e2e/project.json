@@ -1,9 +1,0 @@
-{
-  "name": "player-e2e",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/player-e2e/src",
-  "tags": [],
-  "implicitDependencies": ["player"],
-  "// targets": "to see all targets run: nx show project player-e2e --web",
-  "targets": {}
-}
